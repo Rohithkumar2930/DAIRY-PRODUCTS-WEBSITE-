@@ -1,0 +1,590 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    position: sticky;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    /* margin-top: 1%; */
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    background-color: black;
+
+}
+
+.logo img {
+    position: flex;
+    height: 40px;
+    width: 40px;
+    margin-top: 1.8%;
+    margin-left: -283px;
+
+}
+
+nav .logo p {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    float: left;
+    margin-top: 2.5%;
+    margin-left: 6%;
+}
+
+nav ul {
+    float: right;
+    margin-top: -2%;
+    /* position: flex; */
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left: -35px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    height: 100%;
+    width: 150%;
+    border: solid black;
+    color: grey;
+}
+
+.aboutus {
+    text-align: center;
+    padding: 120px;
+}
+
+.cont {
+    margin: 20px;
+    font-style: italic;
+}
+
+.bgabout {
+    background-image: url(photos/istockphoto-477832804-612x612.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.homepgimg img {
+    height: 800px;
+    width: 100%;
+    /* position: flex; */
+    margin-top: 2%;
+    /* margin-bottom: 20%; */
+
+}
+
+.head h1 {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 35px;
+    padding-top: 3%;
+    font-style: italic;
+}
+
+.t1 p {
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-style: italic;
+    bottom: 8%;
+    left: 10%;
+}
+
+.more a {
+    position: absolute;
+    font-size: 20px;
+    left: 38%;
+    color: black;
+    height: 30px;
+    width: 90px;
+    border: solid black;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 14px;
+    padding-left: 45px;
+    padding-top: 10px;
+
+}
+
+.more a:hover {
+    color: white;
+    background-color: black;
+}
+
+.home2 img {
+    border-radius: 10%;
+
+}
+
+.homepara p {
+    position: relative;
+    height: 400px;
+    width: 500px;
+    font-style: italic;
+    border: solid black;
+    padding-left: 15%;
+    padding-top: 90px;
+    color: white;
+}
+
+.homepara ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.homepara img {
+    padding-left: 40%;
+    padding-top: 8%;
+}
+
+.details {
+    font-size: 20px;
+    height: 50px;
+    width: 350px;
+    border: solid black;
+    position: relative;
+    top: 10%;
+    left: 70%;
+}
+
+.details p:hover {
+    height: 50px;
+    background-color: gray;
+    color: black;
+}
+
+.details p {
+    padding-left: 22px;
+    height: 50px;
+    background-color: white;
+}
+
+
+.add {
+    height: 65px;
+    width: 100%;
+    border: solid black;
+    position: relative;
+    color: white;
+    background-color: black;
+    top: 16%;
+
+    /* bottom: 0%; */
+}
+
+.add address {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.phead h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+.prdt {
+    background-image: url(photos/tasty-dairy-products-on-wooden-260nw-188064959.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pimg {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0%;
+
+}
+
+.d1 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.d1 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.d1 h1,
+p {
+    text-align: center;
+}
+
+.pimg div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.d2 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.d2 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 2%;
+    /* top: 60%; */
+    /* border: solid; */
+    border-radius: 10%;
+    background-color: white;
+}
+
+.d2 h1,
+p {
+    text-align: center;
+}
+
+
+.d3 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.d3 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.d3 h1,
+p {
+    text-align: center;
+}
+
+.d4 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.d4 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 2%;
+    /* top: 60%; */
+    /* border: solid; */
+    border-radius: 10%;
+    background-color: white;
+}
+
+.d4 h1,
+p {
+    text-align: center;
+}
+
+.service {
+    background-image: url(photos/Role-of-dairy-products-in-supporting-healthy-immune-system-in-children_1250x380.jpg.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.shead h1 {
+    color: white;
+    /* font-style: bold; */
+    font-size: 35px;
+    position: relative;
+    padding-top: 10%;
+    padding-left: 40%;
+}
+
+.mainframe {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+}
+
+.p1 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.p1 {
+    height: 450px;
+    width: 300px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.p1 h1,
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.p1 h1 {
+    padding-top: 10%;
+}
+
+.p2 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.p2 {
+    height: 450px;
+    width: 300px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.p2 h1,
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.p2 h1 {
+    padding-top: 10%;
+}
+
+.p3 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.p3 {
+    height: 450px;
+    width: 300px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.p3 h1,
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.p3 h1 {
+    padding-top: 10%;
+}
+
+.mainframe div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.head2 h1 {
+    color: white;
+    /* font-style: bold; */
+    font-size: 35px;
+    position: relative;
+    padding-top: 0%;
+    padding-left: 35%;
+}
+
+
+.hservice {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0%;
+}
+
+.c1 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.c1 {
+    height: 300px;
+    width: 300px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.c2 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 1%;
+    top: 1%
+}
+
+.c2 {
+    height: 306px;
+    width: 306px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.c3 img {
+    height: 298px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 1%;
+    top: 0%
+}
+
+.c3 {
+    height: 300px;
+    width: 300px;
+    margin: 6%;
+    position: relative;
+    left: 2%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.hservice div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.last h1 {
+    color: white;
+    /* font-style: bold; */
+    font-size: 35px;
+    position: relative;
+    padding-top: 0%;
+    padding-left: 45%;
+
+}
+
+.del {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+.q1 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.q1 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 6%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.q2 img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border-radius: 10%;
+    left: 0%;
+    top: 0%
+}
+
+.q2 {
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+    position: relative;
+    left: 18%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.del div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.del h1,
+p {
+    text-align: center;
+}
+
+.del p {
+    padding-top: 10px;
+    text-align: center;
+}
